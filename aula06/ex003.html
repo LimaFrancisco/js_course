@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Programa...</title>
+    <style>
+        body{
+            background-color: rgb(39, 39, 189);/* Comentario em css */
+            color: black;
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: white;
+        }
+    </style> 
+</head>
+<body>
+    <h1>Ola Mundo!</h1>
+    <p>Me livrei da maldicao.</p> <!-- Comentario em HTML -->
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite um numero: ')) //O ParseInt converte String para Int
+        var n2 = Number.parseInt(window.prompt('Digite outro numero: ')) //Usando apenas Number ele diferencia Float e Int
+        var s = n1 + n2
+        alert(`A soma entre ${n1} e ${n2} eh igual a ${s}!`) //O String(n) converte o valor para String
+    </script>
+</body>
+</html>
